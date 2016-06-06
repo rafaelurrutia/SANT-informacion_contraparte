@@ -1,0 +1,270 @@
+@import "utils";
+@import "text";
+@import "elements";
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#top-bar {
+  background-color: $light-red;
+  height: 58px;
+  padding-left: 25px;
+  padding-right: 25px;
+  .tools {
+    position: relative;
+    .name {
+      padding-top: 19px;
+      margin-right: 10px;
+
+    }
+    .photo-holder {
+      margin-top: 11px;
+      margin-right: 10px;
+    }
+    .dropdown {
+      margin-top: 22px;
+      margin-right: 25px;
+      .bt-drop {
+
+        cursor: pointer;
+
+      }
+      .dropdown-menu {
+        top: 36px;
+        left: -141px;
+        i {
+          float: left;
+          margin-right: 10px;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+
+    .notification {
+      margin-top: 22px;
+    }
+
+  }
+  .logo {
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+}
+
+* {
+  -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+}
+
+.nav-primary {
+
+  width: 77px;
+  height: 100%;
+  background-color: $dark-grey;
+  color: $white;
+  padding-top: 42px;
+  min-height: 586px;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  z-index: 8;
+  overflow: hidden;
+  .bt-close {
+    opacity: 0;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+  }
+
+  > li {
+
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #949494;
+    height: 53px;
+    position: relative;
+    .ico-arrows-grey  {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      opacity: 0;
+      right: -30px;
+      -ms-transform: rotate(180deg); /* IE 9 */
+      -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+      transform: rotate(180deg);
+      transition: all 0.5s ;
+
+
+    }
+
+
+    &.double-line {
+      height: auto;
+    }
+
+    > ul {
+
+      transition: none;
+      display: none;
+      float: left;
+      width: 100%;
+      background-color: $darkest-grey;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      > li {
+        a {
+          padding-left: 20px;
+          font-family: 'open_sanssemibold';
+          padding-right: 20px;
+          padding-top: 3px;
+          padding-bottom: 5px;
+
+          transition: none;
+          &:hover {
+            background-color: $light-grey;
+            color: #333;
+
+          }
+        }
+
+      }
+
+
+    }
+    a {
+      color: $white;
+      font-size: 10px;
+      display: block;
+    }
+    > a {
+
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+
+      position: relative;
+      height: 53px;
+      float: left;
+      width: 100%;
+      .ss1 {
+        position: absolute;
+        height: 25px !important;
+        top: 8px;
+        left: 26px;
+      }
+      span {
+        line-height: 13px ;
+        display: block;
+        position: absolute;
+        font-family: 'open_sanssemibold';
+
+        top: 35px;
+      //  -webkit-transition: top 0.5s linear 0.5s, left 0s linear 0.5s;
+      //    transition: top 0.5s linear 0.5s, left 0s linear 0.5s;
+
+      }
+    }
+    &.expanded {
+
+      height: auto;
+      .ico-arrows-grey  {
+        -ms-transform: rotate(270deg); /* IE 9 */
+        -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+        transform: rotate(270deg);
+        transition: all 0.5s linear 0.5s ;
+
+      }
+
+      ul {
+
+
+
+      }
+    }
+
+  }
+
+
+  &.opened {
+    .ico-arrows-grey  {
+      opacity: 1;
+      right: 30px;
+      transition: all 0.5s  ;
+
+    }
+    width: 300px;
+    .bt-close {
+      opacity: 1;
+    }
+
+    > li {
+      height: auto;
+
+      > a {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+
+        .ss1 {
+          top: 12px;
+          left: 22px;
+          width: 33px;
+
+
+        }
+        span {
+            left:68px !important;
+            top: 20px;
+
+
+
+        }
+      }
+      &.double-line {
+        height: 53px;
+      }
+      &.expanded {
+        .ico-arrows-grey  {
+
+          transition: all 0.5s;
+
+        }
+      }
+    }
+    ul {
+
+    }
+
+  }
+}
+#content {
+  background-color: $light-grey;
+  min-height: 529px;
+  padding-top: 30px;
+  padding-left: 101px;
+  padding-right: 24px;
+
+}
+
+#footer {
+  background: $white;
+  padding-left: 101px;
+  padding-right: 24px;
+}

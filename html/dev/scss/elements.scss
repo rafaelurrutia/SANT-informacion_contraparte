@@ -1,0 +1,208 @@
+.ico-correct {
+    width: 34px;
+    height: 32px;
+    background-position: -73px -5px;
+}
+
+.ss1 {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.ico-calendar {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -5px;
+
+}
+
+.ico-contingency {
+    width: 23px;
+    height: 26px;
+    background-position: -40px -5px;
+}
+
+
+.ico-expenses {
+    width: 32px;
+    height: 20px;
+    background-position: -5px -42px;
+}
+
+.ico-favorites {
+    width: 25px;
+    height: 25px;
+    background-position: -47px -47px;
+}
+
+.ico-house {
+    width:26px;
+    height: 26px;
+    background-position: -82px -47px;
+}
+
+.ico-monitoring {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -80px;
+}
+
+.ico-search {
+    width: 23px;
+    height: 23px;
+    background-position: -38px -81px;
+}
+
+.ico-income {
+    width: 32px;
+    height: 25px !important;
+    background-position: -71px -78px;
+
+}
+
+
+.ico-messages {
+    width: 21px;
+    height: 21px;
+    background-position: -255px -1px;
+
+}
+.logo {
+    width: 128px;
+    height: 27px;
+    background-position: -117px -5px;
+}
+
+.logo-small {
+    width: 94px;
+    height: 18px;
+    background-position: -6px -118px;
+
+}
+
+.breadcrumbs {
+  li {
+    display: inline-block;
+  font-family: 'open_sanssemibold';
+    color: $dark-red;
+    font-size: 19px;
+    a {
+
+      font-weight: normal;
+      color: $dark-red;
+
+
+    }
+  }
+}
+
+
+
+.box-white {
+  border: 1px solid #ccc;
+  padding: 0;
+  background: $white;
+}
+
+.box-content {
+  .info {
+    padding-bottom: 25px;
+  }
+  .actions {
+    background-color: $light-grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+  }
+}
+
+
+
+
+.photo-holder {
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 1px solid $white;
+  position: relative;
+  img {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+  }
+}
+
+.notification {
+  position: relative;
+  span {
+    background-color: $yellow;
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 19px;
+    font-size: 12px;
+    position: absolute;
+    top: -9px;
+    right: -5px;
+
+  }
+}
+.ico-notification {
+  background-image: url(../img/campana.png);
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.ico-dropdown {
+  background-image: url(../img/arrow-down-mini.png);
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ico-config {
+  background-image: url(../img/ico-config.png);
+  width: 16px;
+  height: 16px;
+  display: block;
+
+
+}
+
+a:hover {
+  .ico-config  {
+    background-position: 0 -20px;
+  }
+  .ico-exit  {
+    background-position: 0 -20px;
+  }
+}
+
+
+
+.ico-exit {
+  background-image: url(../img/ico-exit.png);
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.ico-arrows-grey {
+  background-image: url(../img/arrows-greys.png);
+  width: 11px;
+  height: 11px;
+  display: block;
+}
+.box-account {
+  .photo-holder {
+
+  }
+}
