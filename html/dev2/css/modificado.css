@@ -1,0 +1,232 @@
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.row{
+	margin: 20px 0px 20px;
+}
+
+/* *[class*="col-xs"], *[class^=" col-xs"] {
+	 padding: 0;
+}
+*/
+h4.titulos{
+	margin-top: 50px;
+	font-weight: 600;
+}
+
+/* Botones */
+.btn{
+	border-radius: 0px;
+	font-weight: 600;
+}
+.btn-red{
+	background-color: #FF6666 !important;
+	color: #fff !important;
+}
+.btn-red:hover{
+	background-color: #FF3300 !important;
+}
+.btn-yellow{
+	background-color: #FF9900 !important;
+	color: #fff !important;
+}
+.btn-yellow:hover{
+	background-color: #FD5523 !important;
+}
+.btn-green{
+	background-color: #99CC00 !important;
+	color: #fff !important;
+}
+.btn-green:hover{
+	background-color:#339900 !important;
+}
+.btn-gray{
+	background-color: #999999 !important;
+	color: #fff !important;
+}
+.btn-gray:hover{
+	background-color: #666666 !important;
+}
+
+/* Alertas */
+.alert{
+	border-radius: 0px;
+	position: relative;
+	padding-left: 80px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+.alert:before{
+	display: block;
+	height: 44px;
+	width: 44px;
+	border-radius: 50%;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+	padding-top: 5px;
+}
+.alert h4{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.alert .close{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 1;
+	top: 25px;
+	right: 25px;
+	font-size: 18px;
+}
+.alert a{
+	color: #333333;
+	text-decoration: underline;
+}
+.alert-yellow{
+	background-color: #FFFFCC;
+	border: 1px solid #FF9900;
+}
+.alert-yellow:before{
+	content: '!';
+	background-color: #FF9900;
+	color: #fff;
+}
+.alert-yellow .close{
+	background-color: #FF9900 !important;
+	color: #fff;
+}
+.alert-red{
+	background-color: #FFCCCC;
+	border: 1px solid #FF6666;
+}
+.alert-red:before{
+	content: '!';
+	background-color: #FF6666;
+	color: #FFCCCC;
+}
+.alert-red .close{
+	background-color: #FF6666 !important;
+	color: #FFCCCC;
+}
+.alert-green{
+	background-color: #FFF;
+	border: 1px solid #99CC00;
+}
+.alert-green:before{
+	content: '';
+	background-image: url(../img/u12.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.alert-green .close{
+	background-color: #99CC00 !important;
+	color: #fff;
+}
+
+
+/* TAB MENU */
+.menutab{
+	width: 100%;
+	height: 64px;
+	background-color: #E4E4E4;
+	border:1px solid #CCC;
+	border-bottom: 0px;
+}
+.menutab ul {
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.menutab ul li {
+	display: block;
+	float: left;
+	text-align: center;
+}
+.menutab ul li a{
+	display: block;
+	height: 64px;
+	padding: 8px 20px;
+	background-color: #D7D7D7;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom:1px solid #666666;
+}
+.menutab ul li a.active, .menutab ul li a:hover{
+	background-color: #666666;
+	border:1px solid #666666;
+	color: #fff;
+	text-decoration: none;
+}
+.menutab ul li a p{
+	margin: 0px;
+}
+.menutab ul li a span{
+	color: #999999;
+}
+.menutab ul li a.active span,
+.menutab ul li a:hover span{
+	color: #fff;
+}
+.menutab .right-tab{
+	float: right;
+	padding: 14px;
+}
+
+/* TABLAS */
+table.table{
+	font-size: 9pt;
+}
+table tbody{
+	border:1px solid #CCC;
+}
+table thead{
+	background-color: #666666;
+	border-top: 1px solid #666;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	color: #fff;
+}
+table.light thead{
+	background-color:#E4E4E4;
+	border: 1px solid #CCC;
+	color: #666;
+}
+table.table > thead > tr > th{
+	border-bottom: 0px;
+	padding: 15px;
+}
+table.table tbody tr td{
+	padding: 15px;
+}
+
+
+/* tables Sorter*/
+table.tablesorter {
+	font-size: 9pt;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../img/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/desc.gif);
+}
+table.tablesorter tbody tr td{
+	padding: 15px;
+}
+table.tablesorter thead tr th{
+	padding: 15px;
+}

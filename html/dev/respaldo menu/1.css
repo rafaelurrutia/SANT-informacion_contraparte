@@ -1,0 +1,775 @@
+body {
+    position: relative;
+}
+
+#top-bar {
+    padding-left: 84px;
+    padding-right: 84px;
+}
+
+.actualizado {
+    position: relative;
+    top: 20px;
+    right: 36px;
+}
+
+.actualizado p {
+    width: 120px;
+}
+
+.text-9 {
+    font-size: 9px;
+}
+
+.text-10 {
+    font-size: 10px;
+}
+
+.text-19 {
+    font-size: 19px;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+    margin-left: 12px;
+    margin-top: 19px;
+    word-spacing: 1px;
+    position: relative;
+}
+
+h3 {
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 18px;
+    border-bottom: 1px solid red;
+    padding-bottom: 11px;
+    position: relative;
+}
+
+h3::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 6px;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 33px;
+    background-color: #DA0B16;
+    top: -9px;
+    left: -13px;
+}
+
+.logo-santander {
+    background-image: url(../img/santander-header.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 56px;
+}
+
+.informacion-contraparte #content,
+.resultados-busqueda #content {
+    padding-left: 180px;
+    padding-right: 174px;
+    padding-top: 18px;
+}
+
+.busqueda-contraparte {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 45px;
+}
+
+.busqueda-contraparte form {
+    padding-top: 15px;
+}
+
+.busqueda-contraparte p {
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    top: 7px;
+}
+
+.busqueda-contraparte label {
+    font-size: 10px;
+}
+
+.busqueda-contraparte .radio-1,
+.busqueda-contraparte .radio-2 {
+    margin-right: 30px;
+}
+
+.busqueda-contraparte .input-text {
+    margin-top: 7px;
+}
+
+.busqueda-contraparte input[type='text'] {
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 6px 15px;
+    font-size: 12px;
+    outline: inherit;
+}
+
+.busqueda-contraparte input[type='button'] {
+    margin-top: 23px;
+    width: 120px;
+}
+
+.informacion-contraparte #footer {
+    height: 70px;
+    padding-top: 30px;
+    margin-top: -120px;
+}
+
+.informacion-contraparte #content {
+    min-height: 585px;
+}
+
+
+/* pagina 2 */
+
+.resultados-busqueda table a {
+    background-image: url(../img/u45.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21px;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.resultados-busqueda table a:hover {
+    background-image: url(../img/u47.png);
+}
+
+
+/* pagina 3 */
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar ul li a,
+.navbar ul li a:hover {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 25px;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 6px;
+    background-color: #A50606;
+}
+
+.navbar ul li a.active::after {
+    background-color: #ffffff;
+}
+
+.informacion-general-corporativo {}
+
+.informacion-general-corporativo .menu {
+    height: 40px;
+    background-color: #D20000;
+    width: 100%;
+    padding: 5px 150px 5px 100px;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.informacion-general-corporativo .menu.active {
+    position: fixed;
+    top: 0;
+    width: 1024px;
+    z-index: 999999;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+}
+
+.informacion-general-corporativo .menu .search img {
+    width: 24px;
+    height: 24px;
+}
+
+.informacion-general-corporativo ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.informacion-general-corporativo li {
+    float: left;
+}
+
+.informacion-general-corporativo .menu .pull-left a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 25px;
+}
+
+.informacion-general-corporativo .menu .pull-left a::after {
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 6px;
+    background-color: #A50606;
+}
+
+.informacion-general-corporativo .menu .pull-left a.active::after {
+    background-color: #ffffff;
+}
+
+.informacion-general-corporativo h3 {
+    color: red;
+    margin-top: 20px;
+    padding-bottom: 7px;
+}
+
+.box-information {
+    background-color: #F2F2F2;
+    position: relative;
+    min-height: 63px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+}
+
+.box-information::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 22px;
+    background-color: #515151;
+    top: 9px;
+    left: 0px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.box-green {
+    background-color: #339966;
+}
+
+.box-information.box-green::before {
+    background-color: #ffffff;
+}
+
+.box-information-x1 {
+    width: 100%;
+    display: inline-block;
+}
+
+.box-information-x2 {
+    width: 390px;
+    float: left;
+}
+
+.box-information-x3 {
+    width: 190px;
+    float: left;
+}
+
+.box-information-space-x3 {
+    width: 11px;
+    float: left;
+    min-height: 1px;
+}
+
+.box-information a {
+    text-decoration: underline;
+    color: rgb(26, 13, 171);
+}
+
+.informacion-general-corporativo #content {
+    display: inline-block;
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.informacion-general-corporativo .left-side {
+/*    width: calc(100% - 775px); */
+    width: 159px;
+    padding-top: 70px;
+}
+
+.informacion-general-corporativo .inner {
+    background-color: #F2F2F2;
+    width: 775px;
+    padding-right: 150px;
+    padding-left: 15px;
+}
+
+.informacion-general-corporativo .left-side.active {
+    /*
+    padding-top: 120px;
+    */
+    padding-top: 70px;
+}
+
+.left-side .box-side {
+    width: 160px;
+    height: 335px;
+    background-color: #F2F2F2;
+    position: fixed;
+    padding-left: 17px;
+    padding-right: 13px;
+}
+
+.box-side p {
+    margin-bottom: 0;
+}
+
+.box-side .imagen {
+    position: relative;
+    margin: -62px auto 0 auto;
+}
+
+.box-side .corporativo-text {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 11px;
+    margin-top: 4px;
+}
+
+.box-side .section-1 {
+    border-top: 1px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+.box-side .section-1 p {
+    margin-bottom: 0px;
+}
+
+.box-side .section-2 {
+    border-top: 1px solid #fff;
+    display: inline-block;
+    padding-top: 4px;
+}
+
+.box-side .section-2 a {
+    display: block;
+    color: rgb(26, 13, 171);
+    text-decoration: underline;
+}
+
+.box-side .section-2 .pull-left {
+    margin-right: 33px;
+}
+
+.box-side .section-3 {
+    margin-top: -9px;
+}
+
+.box-side .section-4 {
+    border-top: 1px solid #fff;
+    margin-top: 8px;
+}
+
+.box-side .section-5 {
+    display: inline-block;
+    background-color: #D7D7D7;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+}
+
+#normativo .box-information {
+    padding-top: 14px;
+    min-height: 63px;
+}
+
+#normativo i {
+    font-size: 16px;
+    margin-left: 3px;
+    margin-right: 4px;
+    margin-top: 5px;
+}
+
+#normativo .pull-right {
+    position: relative;
+    top: -5px;
+}
+
+#normativo .pull-right i {
+    color: rgb(51, 153, 102);
+}
+
+#normativo .box-white .fila {
+    margin-bottom: 0px;
+}
+
+#normativo .flotante {
+    top: 7px;
+    right: 7px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+i.red {
+    color: rgb(204, 0, 0);
+}
+
+i.green {
+    color: rgb(51, 153, 102);
+}
+
+i.yellow {
+    color: rgb(255, 204, 51);
+}
+
+.box-side .section-5:hover {
+    background-color: red;
+}
+
+.box-side .section-5 i,
+.box-side .section-5 strong {
+    display: inline-block;
+}
+
+.box-side .section-5 i {
+    font-size: 21px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+    color: black;
+}
+
+.box-side .section-5 strong {
+    width: 80px;
+    position: relative;
+    top: 10px;
+    left: 26px;
+    color: black;
+}
+
+.box-side .section-5 i.active,
+.box-side .section-5 strong.active {
+    color: white;
+}
+
+.box-side .section-5 a {
+    display: block;
+}
+
+.box-side .img-1 {
+    margin: 0 auto;
+    display: block;
+    width: 86px;
+    height: 86px;
+}
+
+.box-side .img-2 {
+    position: absolute;
+    top: 4px;
+    right: 27px;
+    width: 20px;
+}
+
+.box-side .img-3 {
+    position: absolute;
+    top: 7px;
+    right: 31px;
+    width: 12px;
+}
+
+.box-side .img-4 {
+    position: absolute;
+    top: 22px;
+    color: white;
+    font-size: 44px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.box-side .section-4 p {
+    margin-top: 3px;
+}
+
+.box-side .section-4 table {
+    margin-top: 5px;
+}
+
+.box-side .section-4 table tbody {
+    border: 0;
+}
+
+.box-side .section-4 table tr {
+    height: 17px;
+}
+
+.box-side .section-4 table tr td {
+    color: rgb(134, 134, 134);
+}
+
+.box-side .section-4 table tr td:first-of-type {
+    text-align: left;
+}
+
+.box-side .section-4 table tr td:last-of-type {
+    text-align: right;
+}
+
+.informacion-general-corporativo .navbar {
+    min-height: 40px;
+    height: 40px;
+    background: #D20000;
+    width: 1024px;
+    padding: 5px 150px 5px 100px;
+    box-shadow: 0 5px 5px -5px #333;
+    margin: 0 auto;
+    border: none;
+}
+
+.informacion-general-corporativo .box-white {
+    border: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 25px;
+}
+
+.box-white .fila {
+    margin-top: 0px;
+    margin-bottom: 11px;
+    display: inline-block;
+    width: 100%;
+}
+
+.box-white .fila:first-of-type {
+    margin-top: 3px;
+}
+
+.box-white .fila:last-of-type {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#contrato p,
+#deudores p {
+    top: 3px;
+    right: 0;
+}
+
+.colaterales button {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #F2F2F2;
+    outline: none;
+}
+
+.thresold-box,
+.activos-colateralizables-box {
+    background-color: #F2F2F2;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 7px;
+}
+
+.thresold-box .img-1,
+.activos-colateralizables-box .img-1 {
+    top: 0px;
+    right: 38%;
+    display: none;
+}
+
+.thresold-box .img-2,
+.activos-colateralizables-box .img-2 {
+    top: 0px;
+    right: 18.5%;
+    display: none;
+}
+
+.colaterales .section-1,
+.colaterales .section-2 {
+    margin-bottom: 0!important;
+}
+
+.colaterales .section-1 div,
+.colaterales .section-2 div {
+    min-height: 50px;
+    padding-top: 19px;
+}
+
+.colaterales .section-2 {}
+
+.colaterales .section-3 .box-information-x1 {
+    background-color: #E4E4E4;
+    height: 35px;
+    margin-bottom: -5px;
+    padding: 4px 14px;
+}
+
+.colaterales .section-3 .link-1,
+.colaterales .section-3 .link-2 {
+    margin-right: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    text-decoration: none;
+}
+
+.colaterales .section-3 .link-1 span,
+.colaterales .section-3 .link-2 span {
+    color: rgb(121, 121, 121);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.colaterales .section-3 .link-1 i,
+.colaterales .section-3 .link-2 i {
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.colaterales .section-3 a {
+    font-size: 16px;
+    color: rgb(26, 13, 171);
+}
+
+.colaterales .section-3 a i {
+    font-size: 13px;
+}
+
+#thresold-table-1,
+#thresold-table-2,
+#activos-colateralizables-table-1,
+#activos-colateralizables-table-2 {
+    display: none;
+}
+
+.box-information-x1.white {
+    background-color: white!important;
+}
+
+
+/* 4 */
+
+.table {
+    display: table;
+}
+
+.but-back {
+    background-color: #797979;
+    text-decoration: none;
+    display: block;
+    padding: 12px 12px;
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 58px;
+    z-index: 9;
+    opacity: 1;
+}
+
+.but-back:hover {
+    background-color: #A30B12;
+}
+
+.but-back i {
+    font-size: 20px;
+    color: white;
+}
+
+.informacion-contrato-punta-content {
+    padding-left: 136px;
+}
+
+.informacion-contrato-punta-content .section-1 {
+    width: 43px;
+    min-height: 1px;
+}
+
+.informacion-contrato-punta-content .section-2 {
+    width: 891px;
+    padding-right: 110px;
+}
+
+nav.foot{
+    background-color: #E4E4E4;
+    height: 35px;
+}
+
+nav.foot .pagination > li > a,nav.foot .pagination > li > span {
+    padding: 7.5px 15.5px;
+    color: #337ab7;
+    background-color: #D7D7D7;
+    border: 0;
+    border-radius: 0;
+}
+
+nav.foot .pagination > li > a:hover{
+    background-color: #CCCCCC;
+    border: 0;
+    border-radius: 0;
+}
+
+nav.foot .pagination > li.active a{
+    background-color: #CCCCCC;
+}
+
+nav.foot div{
+    margin-right: 23px;
+    margin-top: 5px;
+}
+
+nav.foot select{
+    margin-right: 8px;
+}
+
+.navbar li a:hover,.navbar li a:focus{
+    background: #D20000;
+}
+
